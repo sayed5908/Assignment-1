@@ -199,10 +199,36 @@
 .opinion-head{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: rgba(198, 228, 214, 1);
     height: 72px;
     padding: 24px;
     font-size: 20px;
     border: 1px solid;
     border-color: rgba(14, 14, 14, 0.15);
+}
+
+.opinions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 24px;
+    font-size: 16px;
+    gap: 12px;
+    font-weight: 600;
+    border: 1px solid;
+    border-color: rgba(14, 14, 14, 0.15);
+}
+
+.dropdown{
+    width: 152px;
+    height: 44px;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px 14px;
+    background-color: rgba(198, 228, 214, 1);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 1);
 }
