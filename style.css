@@ -204,21 +204,19 @@
     height: 72px;
     padding: 24px;
     font-size: 20px;
+    font-weight: 600;
     border: 1px solid;
+    line-height: 24px;
     border-color: rgba(14, 14, 14, 0.15);
 }
 
-.opinions{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 72px;
+.lekha{
     padding: 24px;
     font-size: 16px;
-    gap: 12px;
     font-weight: 600;
-    border: 1px solid;
-    border-color: rgba(14, 14, 14, 0.15);
+    padding: 36px 24px;
+    width: 1017px;
+
 }
 
 .dropdown{
@@ -231,4 +229,15 @@
     font-size: 16px;
     font-weight: 600;
     color: rgba(14, 14, 14, 1);
+}
+
+.dropbtn{
+    padding: 24px;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid;
+    border-color: rgba(14, 14, 14, 0.15);
 }
