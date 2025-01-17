@@ -373,3 +373,69 @@ td{
 .donate-btn{
     text-align: center;
 }
+
+/* subscribe */
+
+.subscribe{
+    text-align: center;
+    margin: 80px 160px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    padding: 80px 256px;
+}
+
+.subs-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subs-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    
+    text-align: center;
+}
+
+
+.inpt{
+    padding: 18px 300px 18px 40px;
+    border: 1px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+
+.subs-btn{
+    background-color:rgba(0, 106, 80, 1);
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 14px 34px 16px 34px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+footer{
+    text-align: center;
+}
+footer hr{
+    width: 1122px;
+    border: 1px solid;
+    border-color: rgba(14, 14, 14, 0.1);
+}
+
+footer h1{
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 32px;
+}
+
+.footer-img{
+    padding-top: 32px;
+    padding-bottom: 50px;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+}
