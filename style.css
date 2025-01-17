@@ -305,3 +305,71 @@ td{
     border: none;
 }
 
+/* donate section */
+
+.donate-heading{
+    text-align: center;
+}
+
+.donate-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 0px 160px;
+    padding: 0px 88px;
+}
+
+.taka-btn{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px;
+    margin-top: 32px;
+    border-radius: 16px;
+    border-color: rgba(14, 14, 14, 0.15);
+    background-color: #FFFFFF;
+    
+}
+
+.taka-btn:hover{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.taka{
+    justify-content: space-between;
+    margin: 0px 160px;
+    padding-left: 88px;
+    padding-right: 88px;
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+}
+
+.other-donate{
+ display: flex;
+ justify-content: center;
+}
+
+.donate-box{
+    padding: 20px 40px;
+    margin: 32px 124px;
+    width: 1032px;
+    height: Hug(6px);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.donate-btn{
+    text-align: center;
+}
